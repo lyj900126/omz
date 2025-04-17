@@ -1,7 +1,6 @@
 <!-- markdown-toc GFM -->
 
 * [介绍](#介绍)
-* [FUTURES](#futures)
   * [安装使用](#安装使用)
   * [UPDATE](#update)
   * [文件目录](#文件目录)
@@ -15,8 +14,6 @@
 fork自 https://github.com/yaocccc/omz 的二次封装omz
 
 ![avatar](./screenshots/show.gif)
-
-# FUTURES
 
 - 快速跳转到目录 `z dirname` 可用tab补全
 - fzf-tab支持 使用fzf取代原生tab候选、预览
