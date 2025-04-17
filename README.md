@@ -10,9 +10,7 @@
 <!-- markdown-toc -->
 
 # 介绍
-
 fork自 https://github.com/yaocccc/omz 的二次封装omz
-
 ![avatar](./screenshots/show.gif)
 
 - 快速跳转到目录 `z dirname` 可用tab补全
