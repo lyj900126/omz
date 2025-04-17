@@ -4,10 +4,9 @@
 * [FUTURES](#futures)
   * [安装使用](#安装使用)
   * [UPDATE](#update)
-  * [FILE TREE](#file-tree)
-  * [REQUIRES](#requires)
+  * [文件目录](#文件目录)
   * [CONFIGURATION](#configuration)
-  * [PLUGINS](#plugins)
+  * [插件](#插件)
   * [贡献者](#贡献者)
   * [Support: buy me a coffee](#support-buy-me-a-coffee)
 
@@ -15,7 +14,7 @@
 
 # 介绍
 
-fork自https://github.com/yaocccc/omz的二次封装omz
+fork自 https://github.com/yaocccc/omz 的二次封装omz
 
 ![avatar](./screenshots/show.gif)
 
@@ -45,13 +44,29 @@ fork自https://github.com/yaocccc/omz的二次封装omz
   # 请务必安装fzf和lua 依赖
 ```
 
+- zsh
+- fzf
+- fd
+- bat (可选 更好的文本预览效果)
+- exa (可选 更好的目录预览效果)
+- ueberzug (可选 可在x11终端下预览图片)
+
+```plaintext
+  请自行安装fd
+  On Arch Linux: pacman -S fd
+
+  请自行安装fzf
+  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  ~/.fzf/install
+```
+
 ## UPDATE
 
 ```plaintext
   cd $OMZ && git pull
 ```
 
-## FILE TREE
+## 文件目录
 
 ```plaintext
 omz
@@ -71,26 +86,7 @@ omz
   └── README.md           -- README
 ```
 
-## REQUIRES
 
-- zsh
-- fzf
-- fd
-- bat (可选 更好的文本预览效果)
-- exa (可选 更好的目录预览效果)
-- ueberzug (可选 可在x11终端下预览图片)
-
-```plaintext
-  请自行安装fd
-  On macOS: brew install fd
-  On Arch Linux: pacman -S fd
-  On Ubuntu: apt install fd-find && ln -s $(which fdfind)
-  On Debian: sudo apt-get install fd-find && ln -s $(which fdfind) ~/.local/bin/fd
-
-  请自行安装fzf
-  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-  ~/.fzf/install
-```
 
 ## CONFIGURATION
 
@@ -115,7 +111,7 @@ _OMZ_APPLY_HISTORYBYFZF
   默认true
 ```
 
-## PLUGINS
+## 插件
 
 1. z.lua
     > `z keyword`  
