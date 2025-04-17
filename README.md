@@ -1,6 +1,6 @@
 <!-- markdown-toc GFM -->
 
-* [一](#o)
+* [一](#一)
 * [FUTURES](#futures)
   * [USAGE](#usage)
   * [UPDATE](#update)
