@@ -7,8 +7,6 @@
   * [文件目录](#文件目录)
   * [CONFIGURATION](#configuration)
   * [插件](#插件)
-  * [贡献者](#贡献者)
-  * [Support: buy me a coffee](#support-buy-me-a-coffee)
 
 <!-- markdown-toc -->
 
@@ -154,14 +152,3 @@ _OMZ_APPLY_HISTORYBYFZF
     >> |/  
     >> \*   70a46da 2022-12-13 18:27 user2: Merge branch 'fix/abcd' into 'master'  
 
-## 贡献者
-
-- [yaocccc](https://github.com/YichaoDeng)
-- [YichaoDeng](https://github.com/YichaoDeng)
-  - [PR#1 更新gitlog的format格式](https://github.com/yaocccc/omz/pull/1)
-
-## Support: buy me a coffee
-
-<a href="#TOP" target="_blank">
-  <img src="https://github.com/yaocccc/yaocccc/raw/master/qr.png">
-</a>
