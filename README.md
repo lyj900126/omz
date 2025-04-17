@@ -17,7 +17,7 @@ fork自 https://github.com/yaocccc/omz 的二次封装omz
 - fzf-tab支持 使用fzf取代原生tab候选、预览
 - 输入命令过程中展示最近使用同开头的命令 右键采用
 - 高亮输入命令 绿色正确 红色错误
-- `extract` 或 `x` 命令解压任意格式压缩文件
+ - `extract` 或 `x` 命令解压任意格式压缩文件
 - 选择性开启hook，可实现新开终端自动进入最后进入的目录 `export _OMZ_APPLY_CHPWD_HOOK=true`
 - 常用git快捷命令集成
 
@@ -27,7 +27,7 @@ fork自 https://github.com/yaocccc/omz 的二次封装omz
   # 安装前置
   sudo pacman -S zsh fd bat exa ueberzug
 
-  # 找一个地方clone本仓库 例如 ~/.config
+  # （二选一）找一个地方clone本仓库 例如 ~/.config
   git clone https://github.com/yaocccc/omz ~/.config/omz
   git clone https://github.com/lyj900126/omz.git ~/.config/omz
 
@@ -35,6 +35,9 @@ fork自 https://github.com/yaocccc/omz 的二次封装omz
   echo "source ~/.config/omz/omz.zsh" >> ~/.zshrc
 
   # 请务必安装fzf和lua 依赖
+  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  ~/.fzf/install
+
 ```
 
 - zsh
@@ -44,14 +47,7 @@ fork自 https://github.com/yaocccc/omz 的二次封装omz
 - exa (可选 更好的目录预览效果)
 - ueberzug (可选 可在x11终端下预览图片)
 
-```plaintext
-  请自行安装fd
-  On Arch Linux: pacman -S fd
 
-  请自行安装fzf
-  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-  ~/.fzf/install
-```
 
 ## UPDATE
 
