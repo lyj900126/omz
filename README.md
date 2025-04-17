@@ -1,6 +1,6 @@
 <!-- markdown-toc GFM -->
 
-* [o╦╗](#o)
+* [一](#o)
 * [FUTURES](#futures)
   * [USAGE](#usage)
   * [UPDATE](#update)
@@ -13,7 +13,7 @@
 
 <!-- markdown-toc -->
 
-# o╦╗
+# 一
 
 fork自 oh my zsh，更纯净 更快速
 
