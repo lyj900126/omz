@@ -1,8 +1,8 @@
 <!-- markdown-toc GFM -->
 
-* [一](#一)
+* [介绍](#介绍)
 * [FUTURES](#futures)
-  * [USAGE](#usage)
+  * [安装使用](#安装使用)
   * [UPDATE](#update)
   * [FILE TREE](#file-tree)
   * [REQUIRES](#requires)
@@ -13,9 +13,9 @@
 
 <!-- markdown-toc -->
 
-# 一
+# 介绍
 
-fork自 oh my zsh，更纯净 更快速
+fork自https://github.com/yaocccc/omz的二次封装omz
 
 ![avatar](./screenshots/show.gif)
 
@@ -29,11 +29,15 @@ fork自 oh my zsh，更纯净 更快速
 - 选择性开启hook，可实现新开终端自动进入最后进入的目录 `export _OMZ_APPLY_CHPWD_HOOK=true`
 - 常用git快捷命令集成
 
-## USAGE
+## 安装使用
 
 ```shell
+  # 安装前置
+  sudo pacman -S zsh fd bat exa ueberzug
+
   # 找一个地方clone本仓库 例如 ~/.config
   git clone https://github.com/yaocccc/omz ~/.config/omz
+  git clone https://github.com/lyj900126/omz.git ~/.config/omz
 
   # 在你的zsh配置里 source ~/.config/omz/omz.zsh (举例)
   echo "source ~/.config/omz/omz.zsh" >> ~/.zshrc
