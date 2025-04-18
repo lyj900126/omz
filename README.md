@@ -132,7 +132,7 @@ _OMZ_APPLY_HISTORYBYFZF
     > `gam` = `git add all 并 git commit -m '内容'`, e.g. `git commit update readme`  
     > `gll` = `简洁打印 git log`, 默认展示10条 若想展示更多 `gll 100`  
     > `glll` = `详细打印 git log`, 默认展示10条 若想展示更多 `glll 100`  
-    >> 展示 glll效果如下 PS: 实际使用带颜色 可自行根据 [此文件:git.zsh](https://github.com/yaocccc/omz/blob/master/config/git.zsh) 内容配置对应颜色
+    >> 展示 glll效果如下 PS: 实际使用带颜色 可自行根据 [此文件:git.zsh](https://github.com/lyj900126/omz/blob/master/config/git.zsh) 内容配置对应颜色
     >> 
     >> $ glll  
     >> \* e797da3 2022-12-14 15:18 user1: fix: 透传减轻下游负载  
