@@ -40,9 +40,9 @@ fork自 https://github.com/yaocccc/omz 的二次封装omz
 
 ```
 
-- zsh
-- fzf
-- fd
+- zsh （shell终端）
+- fzf （命令行模糊查找器）
+- fd （代替传统的find搜索）
 - bat (可选 更好的文本预览效果)
 - exa (可选 更好的目录预览效果)
 - ueberzug (可选 可在x11终端下预览图片)
